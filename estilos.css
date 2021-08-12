@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.contenedor{
+    width: 100%;
+    height: 250px;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 15px auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-top: 3px solid blue;
+}
+
+}
+/*MODIFICACION CAJA1 */
+.header .contenedor .logo_fya25{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.header .contenedor .logo_fya25 .img{
+    width: 40%;
+}
+/* MODIFICANDO CAJA2 */
+.header .contenedor .titulos{
+    width: 400px;
+    height: 100px;
+    border: 3px solid blue;
+    margin-left: 15px;
+}
+.header .contenedor .titulos h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: cursive;
+}
+.header .contenedor .titulos p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+/*header{
+    width: 100%;
+    height: 200px;
+    /*background-color: red;*/
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #021B79,);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #021B79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+*/
+body{
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+nav{
+    text-align: right;
+    padding: 25px 25px 0 0;
+}
+
+nav > a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav > a:hover{
+    color: red;
+  
+}
+/*header .TITULO{*/
+/*header div{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.titulos h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.titulos h3{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+.SUBTITULO{
+    font-size: 30px;
+    text-align: center ;
+    padding-bottom: 10px;
+    border-bottom: solid red;
+    font-family: 'Otomanopee One', sans-serif;
+}
+*/
+.IMAGENES{
+    width: 20%;
+    /*background-color: red;*/
+    display: inline;
+
+}
+
+.TEXTO{
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #fff;
+    clear: both;
+    padding: 10px 50px 10px;
+    text-align: right;
+}
